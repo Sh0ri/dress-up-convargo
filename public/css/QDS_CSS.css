@@ -1,0 +1,14 @@
+.inputs
+{
+	padding: 30px;
+	background-color: #ccc;
+	margin: 30px;
+	width: 100%;
+}
+
+body{ 
+    /* The image used */
+    background-image: url("images/wallpapger.jpg");
+
+
+}
