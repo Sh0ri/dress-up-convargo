@@ -10,80 +10,7 @@
     <title>CSS/HTML Workshop with Convargo</title>
   </head>
   <body>
-  	<h1 style="text-align: center; margin: 2% auto">Configure your order</h1>
-  	<div class="container" style="margin: 2% auto; padding: 20px">
-
-
-  		<form id="inputs" novalidate="">
-  			
-  			<!--Trucker-->
-  			<div class="container" id="trucker_container" style="background-color: #636779; padding: 20px">
-	  			<div class="row" id="trucker_label" style="padding-bottom: 10px; text-align: center">
-	  				<div class="col">
-	  					<h4>Trucker</h4>
-	  				</div>
-	  			</div>
-
-	  			<div class="row" id="trucker">
-	  				<div class="col">
-	  					<input id="trucker_name" class="form-control name" type="text" placeholder="Trucker name" required=""/>
-	  					<div class="invalid-feedback">Error at Trucker Name</div>
-	  				</div>
-	  				<div class="col">
-			      		<input id="trucker_price-per-km" class="form-control price-by-km" type="number" placeholder="Price by km" required=""/>
-			      		<div class="invalid-feedback">Error at Trucker Price by km</div>
-			      	</div>
-			      	<div class="col">
-			      		<input id="trucker_price-by-cubic" class="form-control price-by-cubic" type="number" placeholder="Price by m3" required=""/>
-			      		<div class="invalid-feedback">Error at Trucker Price by m3</div>
-			      	</div>
-	  			</div>
-  			</div>
-
-  			<br>
-
-  			<!--Shipper-->
-  			<div class="container" id="shipper_container" style="background-color: #636779; padding: 20px;">
-	  			<div class="row" id="shipper_label" style="padding-bottom: 10px; text-align: center">
-	  					<div class="col">
-		  					<h4>Shipper</h4>
-		  				</div>
-	  			</div>
-
-	  			<div class="row" id="shipper">
-	  				<div class="col">
-			      		<input id="shipper_name" class="form-control name" type="text" placeholder="Shipper name" required="" />
-			      		<div class="invalid-feedback">Error at Shipper Name</div>
-			      	</div>
-			      	<div class="col">
-			      		<input id="shipper_distance" class="form-control distance" type="number" placeholder="Distance in km" required="" />
-			      		<div class="invalid-feedback">Error at Distance</div>
-			      	</div>
-			      	<div class="col">
-			      		<input id="shipper_volume" class="form-control volume" type="number" placeholder="Volume in m3" required=""/>
-			      		<div class="invalid-feedback">Error at Volume in m3</div>
-			      	</div>
-	  			</div>
-
-	  			<div class="row" id="shipper_option_div" style="text-align: left; padding-top: 10px;">
-	  				<div class="col">
-	  					<label>Do you want to take the option ?</label>
-				    	<input id="shipper_option" class="option" type="checkbox" placeholder="Deductible option" />
-				    </div>
-	  			</div>
-  			</div>
-
-  					    <button id="compute" type="submit">Compute</button>
-
-		    <div id="actors"></div>
-
-  		</form>
-
-
-  	</div>
-
-<!--
-
+	<h1 style="text-align: center; margin: 5% auto">Configure your order</h1>
 	  	<form id="inputs" class="col-5" style="margin: auto auto; background-color: white; padding: 20px;" novalidate="">
 
 		    <div id="trucker" class="inputs" style="margin: auto auto 20px auto; text-align: center;">
@@ -109,7 +36,7 @@
 
 		    <div id="actors"></div>
 		</form>
--->
+
     <script src="convargo.js"></script>
     <!--<script src="index.js"></script>-->
     <script src="QDS.js"></script>

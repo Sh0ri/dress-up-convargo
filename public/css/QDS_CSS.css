@@ -6,9 +6,10 @@
 	width: 100%;
 }
 
-body{ 
-    /* The image used */
-    background-image: url("images/wallpapger.jpg");
-
-
+body {
+color:black;
+background-color:white;
+background-image:url(wallpaper.jpg);
+margin:0;
 }
+

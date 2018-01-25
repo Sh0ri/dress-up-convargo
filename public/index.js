@@ -33,5 +33,6 @@
     render(actors);
 
     return;
+    
   });
 })();
