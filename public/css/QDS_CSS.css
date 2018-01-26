@@ -8,8 +8,10 @@
 
 body {
 color:black;
-background-color:white;
+
 background-image:url(wallpaper.jpg);
+background-color:black;
 margin:0;
+background-repeat: no-repeat;
 }
 

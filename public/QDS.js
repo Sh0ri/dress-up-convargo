@@ -10,10 +10,13 @@ const form = document.getElementById("inputs");
     const template = actors.map(actor => {
       return `
         <div class="actor">
-          <span>${actor.who}</span>
-          <span>${actor.type}</span>
-          <span>${actor.amount}</span>
+          <ul class="list-group">
+            <li class="list-group-item">Actor : ${actor.who}</li>
+            <li class="list-group-item">Type of transaction : ${actor.type}</li>
+            <li class="list-group-item">Amount : ${actor.amount}</li>
+          </ul>
         </div>
+        <br>
       `;
     }).join('');
 

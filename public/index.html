@@ -17,7 +17,7 @@
   		<form id="inputs" novalidate="">
   			
   			<!--Trucker-->
-  			<div class="container" id="trucker_container" style="background-color: #636779; padding: 20px">
+  			<div class="container" id="trucker_container" style=" padding: 20px">
 	  			<div class="row" id="trucker_label" style="padding-bottom: 10px; text-align: center">
 	  				<div class="col">
 	  					<h4>Trucker</h4>
@@ -43,7 +43,7 @@
   			<br>
 
   			<!--Shipper-->
-  			<div class="container" id="shipper_container" style="background-color: #636779; padding: 20px;">
+  			<div class="container" id="shipper_container" style=" padding: 20px;">
 	  			<div class="row" id="shipper_label" style="padding-bottom: 10px; text-align: center">
 	  					<div class="col">
 		  					<h4>Shipper</h4>
@@ -73,43 +73,23 @@
 	  			</div>
   			</div>
 
-  					    <button id="compute" type="submit">Compute</button>
+  			<br>
 
-		    <div id="actors"></div>
+  			<div class="container" id="compute">
+  				<button id="compute" class="btn btn-primary" type="submit">Compute</button>
+  			</div>
+
+  			<br>
+
+  			<div class="container" id="actors">
+  				<div id="actors"></div>
+  			</div>
 
   		</form>
 
 
   	</div>
 
-<!--
-
-	  	<form id="inputs" class="col-5" style="margin: auto auto; background-color: white; padding: 20px;" novalidate="">
-
-		    <div id="trucker" class="inputs" style="margin: auto auto 20px auto; text-align: center;">
-		    	<h4 style="margin-bottom: 20px">Trucker</h4>
-		      <input id="trucker_name" class="name" type="text" placeholder="Trucker name" style="margin-right: 50px;" required=""/>
-		      <input id="trucker_price-per-km" class="price-by-km" type="number" placeholder="Price by km" style="margin-right: 50px;" required=""/>
-		      <input id="trucker_price-by-cubic" class="price-by-cubic" type="number" placeholder="Price by m3" required=""/>
-		    </div>
-
-		    <div id="shipper" class="inputs" style="margin: auto auto 20px auto; text-align: center">
-		    	<h4 style="margin-bottom: 20px">Shipper</h4>
-		      <input id="shipper_name" class="name" type="text" placeholder="Shipper name" style="margin-right: 50px;" required="" />
-		      <input id="shipper_distance" class="distance" type="number" placeholder="Distance in km" style="margin-right: 50px;" required="" />
-		      <input id="shipper_volume" class="volume" type="number" placeholder="Volume in m3" required=""/>
-		      <br>
-		      <div id="shipper_option_div" style="text-align: left; margin: 20px auto auto 25px">
-			      <label style="margin-right: 20px">Do you want to take the option ?</label>
-			      <input id="shipper_option" class="option" type="checkbox" placeholder="Deductible option" />
-		  	  </div>
-		    </div>
-
-		    <button id="compute">Compute</button>
-
-		    <div id="actors"></div>
-		</form>
--->
     <script src="convargo.js"></script>
     <!--<script src="index.js"></script>-->
     <script src="QDS.js"></script>
