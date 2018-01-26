@@ -1,4 +1,6 @@
-/* Quentin Da Silva */
+/* Quentin Da Silva
+This is the js file used in the workshop "dress-up-convargo"
+ */
 'use strict';
 
 const form = document.getElementById("inputs");
